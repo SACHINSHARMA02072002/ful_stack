@@ -11,4 +11,10 @@ git config --global user.name "Sachin sharma"
 git config --global user.email "sachinsharma02072002@gmail.com"
 
 # commit in command line
-git commit -m "Your message"
+git commit -m "Your message" 
+
+
+# Daily commands
+git add .
+git commit -m "Daily message you want to send"
+git push origin main
