@@ -1,0 +1,11 @@
+# git-scm.com
+
+
+# first time
+git init
+git status
+git add .
+
+# first time
+git config --global user.name "Sachin sharma"
+git config --global user.email "sachinsharma02072002@gmail.com"
