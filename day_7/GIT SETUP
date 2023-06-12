@@ -9,3 +9,6 @@ git add .
 # first time
 git config --global user.name "Sachin sharma"
 git config --global user.email "sachinsharma02072002@gmail.com"
+
+# commit in command line
+git commit -m "Your message"
