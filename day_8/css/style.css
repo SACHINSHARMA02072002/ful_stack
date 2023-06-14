@@ -7,6 +7,7 @@
     --whitecolor : white;
     --blackcolor: #222222;
     --primaryFont: 'Open Sans' , sans-serif;
+    --cursiveFont:'Pacifico' , cursive;
     --navbarheight: 3rem;
 
 
@@ -23,6 +24,16 @@ body{
     margin-right: 0px;
 
 }
+a{
+    text-decoration: none;
+    color: var(--primarycolor);
+}
+
+a:hover{
+    color: var(--primaryaccentcolor);
+
+}
+
 
 .navigation{
     background-color: var(--whitecolor);
@@ -49,8 +60,10 @@ body{
 .contactImage{
     padding: 8px;
     height: 2rem;
+    margin-right: 40px;
     
 }
+
 
 .menuitems{
     flex-grow: 2;
@@ -62,3 +75,63 @@ body{
 
 
 
+/* Banner */
+.banner{
+    display: flex;
+    height: 450px;
+    background: linear-gradient(45deg, var(--secondarycolor), var(--primaryaccentcolor));
+    /* background-color: var(--secondarycolor); */
+     filter:drop-shadow(0px 5px 10px grey);       /* x , y , radius , color */
+     justify-content: space-around;
+     align-items: center;
+     margin-bottom: 5px;
+}
+
+.bannerLeft{
+    width: 50%;
+}
+
+
+
+.bannerImage{
+    height: 300px;
+    border-radius: 100%;
+}
+
+.greeting{
+    font-family: var(--cursiveFont);
+    font-size: 1.25rem;
+
+
+}
+
+.title{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.titleSpan{
+    display: inline-block;
+    background-color: var(--primarycolor);
+    padding: 0.5rem;
+    margin: 5px 0px;
+}
+
+.description{
+    margin: 30px 0px;
+    line-height: 2rem;
+}
+
+.showCVButton{
+    background : linear-gradient(
+        white , rgb(205,205,205) , rgb(215,215,215));
+    padding: 10px 15px ;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 3px grey);
+}
+
+.showCVButton:hover{
+    background-color: linear-gradient(
+        white , rgb(215,215,215)
+    );
+}
