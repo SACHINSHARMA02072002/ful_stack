@@ -135,3 +135,80 @@ a:hover{
         white , rgb(215,215,215)
     );
 }
+
+
+
+
+
+
+
+
+
+/* Services section */
+.services{
+    margin: 80px;
+}
+
+.serviceText{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.TextSubHeading{
+    color: var(--primaryaccentcolor);
+    font-size: 1.25rem;
+    letter-spacing: 0.4rem;
+}
+
+.TextHeading{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.serviceCards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.serviceCard{
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 1px #aaaa);
+    /* margin: 15px; */
+    padding: 40px;
+}
+
+.serviceCard:hover{
+    background-color: white;
+    filter: drop-shadow(3px 3px 8px grey);
+}
+
+.serviceIconDiv{
+    color: white;
+    background-color: rgb(80, 80,118);
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.serviceIcon{
+    font-size: 3rem;
+    color: rgb(227, 218, 218);
+}
+
+.serviceTitle{
+    font-size: 1.75rem;
+    margin: 20px 0px;
+}
+
+.serviceFeature{
+    font-size: 1rem;
+    margin: 10px 0px ;
+}
+
+.serviceFeatureIcon{
+    font-size: 1rem;
+}
