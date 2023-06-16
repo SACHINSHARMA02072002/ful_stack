@@ -18,3 +18,11 @@ git commit -m "Your message"
 git add .
 git commit -m "Daily message you want to send"
 git push origin main
+
+
+
+# To download the code from github 
+git clone https://github.com/sanampeeyush/FSD_4_23.git      # Run this command in terminal
+
+
+
