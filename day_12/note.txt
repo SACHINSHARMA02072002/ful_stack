@@ -1,0 +1,28 @@
+<tag_name atr="value" atr="value" atr="value" ......>
+
+cont
+
+</tag_name>
+
+
+iframe tag is used to add a website into another website
+
+types of list 
+ order list
+ unorder list
+ descriptive list
+
+
+
+
+task:- 
+take 4 images yt ig google fb
+use a tag 
+when we click on that photo then that will start
+
+
+
+task 2:-
+1  3ol  3ul
+2  3ol  3ul
+3  3ol  3ul
