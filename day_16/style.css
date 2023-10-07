@@ -1,0 +1,41 @@
+/* p{
+    color: red;
+    text-shadow: 5px 5px 5px rgb(8,250,20);
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    
+} */
+
+h1,p{
+    color: red;
+
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    overflow: scroll;
+    /* box-shadow: 5px 5px blue; */
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+span{
+    color: black;
+}
+
+li{
+    list-style: none;
+    float: left;
+    margin: 30px;
+}
+
+ul{
+    margin-left: 400px;
+}
