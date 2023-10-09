@@ -1,0 +1,68 @@
+/* p{
+    color: red;
+}
+
+p:hover{
+height: 100px;
+width: 100px;
+border: 1px solid red;
+background-color: red;
+}
+
+
+
+div:hover{
+    height: 200px;
+    width: 200px;
+    transform: rotate(180deg);
+
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 50px;
+    transition: width 2s, height 2s, transform 2s;
+    
+} */
+
+
+/* 
+img:hover{
+      transform: rotate(50deg);              /* to rotate an img */
+     
+
+}  
+
+img:hover{
+            
+    height: 100px;
+    width: 100px;
+    transform: translate(700px);        /* to remove an img to a particular location   */  
+}
+
+img{
+    height: 90px;
+    width: 90px;
+    border-radius: 60%;
+    margin-top: 60px;
+    background-color: red;
+    transition: width 2s, height 2s, transform 10s;
+
+} 
+
+ 
+
+
+
+
+
+
+/* input{
+    width: 40px;
+    transition: width 2s , height 2s , transform 2s;
+}
+input:hover{
+    width: 200px;
+    transform: rotate(30deg);
+} */
