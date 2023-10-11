@@ -1,0 +1,69 @@
+
+
+h1,h2{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Pacifico', cursive;
+}
+img {
+    height: 150px;
+    width: 150px;
+   margin-top: 0px;
+   margin-right:;
+    border-radius: 50%;
+}
+
+
+
+span{
+    color: red;
+    display: inline;
+  
+    
+}
+
+
+*{
+    margin: 0px;
+}
+
+body{
+    background: url("IMG_20230928_124833.jpg");
+}
+
+li{
+    display: inline;
+    margin: 50px;
+}
+
+Ul{
+    margin-left: 800px;
+}
+
+nav{
+    background-color: rgb(162, 158, 166);
+    height: 50px;
+    padding-top: 14px;
+
+    color: rgb(197, 66, 66);
+}
+
+H1{
+    margin-top: 50px;
+    /* text-align: center; */
+}
+
+.one{
+    margin-left: 290px;
+    margin-top: 50px;
+}
+
+.two{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+button{
+    height: 40px;
+    border-radius: 10px;
+    background-color: azure;
+}
