@@ -1,0 +1,34 @@
+Variable types in javascript 
+1)  var
+2)  let
+3)  const
+
+
+var a = 12   
+
+let a = 12
+
+const a = 12
+
+
+
+
+
+memory management : 
+
+<script>
+
+  // javascript html se phle run kar jati h 
+
+var let const 
+a=10;
+
+ // let is the best 
+</script>
+
+
+
+
+prompt()  
+
+// user se input lene ke liye
