@@ -1,0 +1,44 @@
+ objects in javascript 
+
+
+          function ---- code
+           button 
+           input
+        
+          ul.li    ---dom
+          rr.kl    
+          import react.comp
+          full form of react = create react app
+        
+
+
+        mern - 
+        mean - mongo db(nosql), express js , node 
+
+
+
+
+
+
+
+
+
+
+full form of npm - node package manager 
+
+
+check version of nodejs on cmd 
+      node -v
+
+ run = npm -v
+
+
+
+
+
+To run react on cmd 
+
+cd sachin
+code .
+npm start
+ 
