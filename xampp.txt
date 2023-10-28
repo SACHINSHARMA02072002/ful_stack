@@ -1,0 +1,35 @@
+127.0.0.1
+
+
+
+version                            Nature                       Type 
+ipv4                               dynamic                      public
+ipv6                               static                       private 
+
+
+
+
+
+0-255
+0-255.0-255.0-255.0-255
+
+
+
+
+router's ip - public
+self ip - private
+
+
+
+1. download xampp
+2. install it 
+3. open and give yes permission
+4. start apache and mysql
+5. open c/xampp/htdocs
+6. delete everything from htdocs and paste your website and any fie there you want to share
+7. open cmd
+8. type ipconfig in cmd and you will get wifi private ipv4 such as 192.168...
+9. share that ip ip address on same network(wifi) to show
+
+Note:-It is a offline process , hence no internet is required
+
