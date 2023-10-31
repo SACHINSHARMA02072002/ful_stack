@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // class Ra {
+        //     constructor() {
+        //         document.write("This is a class");
+        //     }
+
+
+        //     xy() {
+        //         document.write("This is a class function");
+        //     }
+
+
+
+        //     zz() {
+        //         document.write("This is 2nd function of class");
+        //     }
+        // }
+
+
+
+        // var a= new Ra;
+
+        // a.xy();
+        // a.zz();
+        // a.xy();
+
+
+
+
+
+
+
+
+
+
+        class calculator {
+            constructor() {
+                document.write("This is a class");
+            }
+
+
+            add() {
+                let n1=prompt("Enter first number");
+                let n2=prompt("Enter Second number");
+                let ans = BigInt(n1)+BigInt(n2);
+                document.write("This is a addition function",ans);
+            }
+
+
+
+            sub() {
+                let n1=prompt("Enter first number");
+                let n2=prompt("Enter Second number");
+                document.write("This is a subtractio class",n1-n2);
+            }
+        }
+
+
+
+        var a= new calculator;
+
+        a.add();
+        a.sub();
+
+
+
+
+    </script>
+</body>
+
+</html>
